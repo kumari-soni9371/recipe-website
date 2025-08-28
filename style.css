@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100;
+    background: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px; 
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex; 
+    align-items: center; 
+}
+.logo img{
+    margin: left 36px; ; /* space betweem text and image */
+}
+nav {
+    width: 100%;
+    text-align:center; /* Align the nav links to the center */
+    margin-top: 10px; /* Space between the logo and the navigation */
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    padding:0%;
+    margin: 0%;
+    justify-content: center;
+}
+.nav-list li {
+    margin-right: 30px; /* Increase space between navigation items */
+}
+.hero {
+    background: url('back.avif') no-repeat center center/cover;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.hero-section{
+    max-width: 800px;
+    padding: 20px;
+}
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.search-box{
+    border-radius: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: auto;
+}
